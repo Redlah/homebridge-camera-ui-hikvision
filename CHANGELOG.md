@@ -1,13 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-# v5.1.0 - 2026-11-17 (homebridge-camera-ui-hikvision)
+# v1.0.0 - 2026-11-17 (homebridge-camera-ui-hikvision)
 
 First release of the fork `homebridge-camera-ui-hikvision`, based on homebridge-camera-ui v5.0.27.
 
 ## Notable Changes
 - **Two-way audio for Hikvision via ISAPI:** New option `videoConfig.returnAudio` (`"mode": "hikvision"`) sends HomeKit talkback audio to Hikvision door stations and OEM devices (e.g. Metzler VDM10) using `/ISAPI/System/TwoWayAudio` (open with sessionId, real-time G.711 µ-law stream, close). A ringing call is released (answer + hangUp) before talking, busy channels are retried.
-- Package renamed to `homebridge-camera-ui-hikvision`
+- Package renamed to `homebridge-camera-ui-hikvision`, versioning restarts at 1.0.0 (based on homebridge-camera-ui v5.0.27)
 
 ## Bugfixes
 - `returnAudioTarget`: quoted arguments are now supported

@@ -1,6 +1,6 @@
 {
   "name": "homebridge-camera-ui-hikvision",
-  "version": "5.1.0",
+  "version": "1.0.0",
   "description": "camera.ui for Homebridge (fork of homebridge-camera-ui) with HomeKit two-way audio for Hikvision door stations via ISAPI (e.g. Metzler VDM10).",
   "author": "SeydX (https://github.com/SeydX/homebridge-camera-ui)",
   "scripts": {
